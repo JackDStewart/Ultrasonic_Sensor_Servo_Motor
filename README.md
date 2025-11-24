@@ -1,1 +1,3 @@
 # Ultrasonic_Sensor_Servo_Motor
+
+Built an ultrasonic distance scanning system using an STM32 Nucleo microcontroller, HC-SR04 ultrasonic sensor, and servo motor. The servo pans the sensor smoothly back and forth to capture distance data across a wide arc. The STM32 processes the measurements and transmits them over UART to a Python visualization program. The Python script displays a live semicircular radar graph that marks detected objects with red dots, simulating a real-time sonar sweep.
